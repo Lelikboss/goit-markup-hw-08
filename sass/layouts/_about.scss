@@ -1,0 +1,53 @@
+.about{
+    @media screen and (max-width: 1199.98px) {
+        padding-bottom: 0;
+    }
+}
+.about__item{
+    &::before{
+        margin-bottom: 30px;
+
+        content: '';
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #F5F4FA;
+        height: 120px;
+    }
+    &:nth-child(1)::before{
+        content: '';
+        display: block;
+        background-image: url(../images/icons/antenna.svg);
+    }
+    &:nth-child(2)::before{
+        content: '';
+        display: block;
+        background-image: url(../images/icons/clock.svg);
+    }
+    &:nth-child(3)::before{
+        content: '';
+        display: block;
+        background-image: url(../images/icons/diagram.svg);
+    }
+    &:nth-child(4)::before{
+        content: '';
+        display: block;
+        background-image: url(../images/icons/astronaut.svg);
+    }
+    @media  screen and (min-width: 480px) {
+        flex-basis: calc((100% - 30px) / 1);
+    }
+    @media  screen and (min-width: 768px) {
+        flex-basis: calc((100% - 60px) / 2);
+    }
+    @media  screen and (min-width: 1200px) {
+        flex-basis: calc((100% - 120px) / 4);
+    }
+}
+.about__item-text{
+    margin-bottom: 0;
+    line-height: 1.71;
+}
+.about__item-title{
+    margin-bottom: 10px;
+}

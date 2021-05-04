@@ -1,0 +1,13 @@
+.section__title{   
+    margin-bottom: 50px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--complementary-color);
+    @media  screen and (max-width: 1199.98px) {
+        font-size: 28px;
+        line-height: 1.17;
+    }
+}

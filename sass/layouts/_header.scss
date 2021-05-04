@@ -1,0 +1,22 @@
+.header{
+    border-bottom: 1px solid #ECECEC;
+}
+.header__container{
+    display: flex;
+    align-items: center;
+}
+.header__logo{
+    margin-right: 93px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    &--color{
+        color: var(--logo-color);
+    }
+    @media screen and (max-width: 767.98px) {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1199.98px) {
+        margin-right: 88px;
+    }
+}
