@@ -34,6 +34,14 @@
     border-radius: 4px;
 
     transition: transform 250ms ease-in-out 250ms;
+    @media screen and  (max-width: 1199.98px) {
+        max-width: 450px;
+        min-height: 609px;
+    }
+    @media screen and (min-width: 1200px) {
+        max-width: 528px;
+        min-height: 581px;
+    }
 }
 .modal__btn-close .icon {
     width: 11px;
