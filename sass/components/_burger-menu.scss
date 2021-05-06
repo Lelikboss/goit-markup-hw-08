@@ -1,6 +1,4 @@
 @media screen and (max-width: 767.98px) {
-    
-
     .mobile-menu-btn{
         position: relative;
         z-index: 105;
@@ -53,6 +51,9 @@
             line-height: 1.17;
             letter-spacing: 0.02em;
             color: var(--complementary-color);
+            @media screen and (max-width: 479.98px) {
+                font-size: 34px;
+            }
         }
         &__item{
             &:not(:last-child){
@@ -70,6 +71,9 @@
             line-height: 1.17;
             letter-spacing: 0.02em;
             color: var(--accent-color);
+            @media screen and (max-width: 479.98px) {
+                font-size: 28px;
+            }
         }
         &:last-child{
             font-weight: 500;
@@ -85,6 +89,9 @@
         line-height: 1.22;
         letter-spacing: 0.02em;
         color: var(--accent-color);
+        @media screen and (max-width: 479.98px) {
+            font-size: 12px;
+        }
     }
     .mobile-social__item:not(:last-child){
         padding-right: 10px;
